@@ -10,7 +10,7 @@
 
 Парсер выведет список чатов, в которых вы являетесь участников. Выберете нужный.
 
-### Results will be saved into file members.csv.
+### Данные сохраняются в файл members.csv.
 
 ### Telethon version:
 
