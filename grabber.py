@@ -90,6 +90,6 @@ with open('members.csv','w',encoding='UTF-8') as f:
            last_name= user.last_name
        else:
            last_name= ""
-       name= (first_name + ' ' + last_name).strip()
+       name= (last_name + ' ' + first_name).strip()
        writer.writerow([username,phone,user_id,name,target_group.title])     
 print('Парсинг участников группы успешно выполнен.')
